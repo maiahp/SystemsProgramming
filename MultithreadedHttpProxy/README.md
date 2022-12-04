@@ -12,4 +12,4 @@ To run:
    Note: all flags and httpserver ports are optional, all arguments may be entered in any order (however the first port is the proxy port)
          -N number of threads, -R number of requests that may occur before a healthcheck probe on all servers, -s number of entries that can be stored in the cache, -m the max file size that can be stored in the cache, if -s or -m is not present, no caching is done. -u modifies the cache to remove entries based on removing Least Recently Accessed entries when full, if no -u present, the cache removes entries based on LIFO
 
-3) Now you may send GET requests to the proxy using curl or another mean. 
+3) Now you may send GET requests to the proxy using curl. 
